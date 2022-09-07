@@ -1,3 +1,6 @@
+# Exercício Python #004 - Dissecando uma Varíavel
+# Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis ele.
+
 d = input('Digite algo: ')
 print(f'O tipo primito desse valor é: {type(d)}')
 print(f'Só tem espaços? {d.isspace()}')
