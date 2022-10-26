@@ -11,5 +11,4 @@ aluno3 = str(input('Terceiro aluno: '))
 aluno4 = str(input('Quarto aluno: '))
 alunos = [aluno1, aluno2, aluno3, aluno4]
 random.shuffle(alunos)
-print(f'A ordem de apresentação será:')
-print(alunos)
+print(f'A ordem de apresentação será: {alunos}')
