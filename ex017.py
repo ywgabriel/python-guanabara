@@ -5,7 +5,7 @@ calcule e mostre o comprimento da hipotenusa.
 """
 
 import math
-catoposto = float(input('Comprimeto do cateto oposto: '))
-catadjacente = float(input('Comprimento do cateto adjacente: '))
-hipotenusa = math.hypot(catoposto, catadjacente)
+cateto_oposto = float(input('Comprimeto do cateto oposto: '))
+cateto_adjacente = float(input('Comprimento do cateto adjacente: '))
+hipotenusa = math.hypot(cateto_oposto, cateto_adjacente)
 print(f'A hipotenusa vai medir {hipotenusa:.2f}')
