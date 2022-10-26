@@ -11,4 +11,4 @@ aluno3 = str(input('Terceiro aluno: '))
 aluno4 = str(input('Quarto aluno: '))
 alunos = [aluno1, aluno2, aluno3, aluno4]
 escolhido = random.choice(alunos)
-print(f'O aluno(a) escolhido(a) foi {escolhido}.')
+print(f'O(a) aluno(a) escolhido(a) foi {escolhido}.')
